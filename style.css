@@ -14,6 +14,7 @@ body {
 h1 {
   font-style: bold;
   color: #333;
+  
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -28,7 +29,7 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -44,4 +45,7 @@ h1 {
 }
 .wrapper { display:flex; flex-wrap:wrap;justfiy-content:space-between; width: 90vmax; }
 .box { flex: 0 0 40%; height: 50%; text-align:left; }
+
+
+<img src="https://cdn.glitch.com/43b09627-b21b-4281-b9a2-78a1125e779c%2F195-are-unsuccessfully-attacked-by-glandelinian-soldiers-unseen-in-picture.jpg!Large.jpg?v=1604815734609" width="1200" height="151"
 
