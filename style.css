@@ -1,12 +1,18 @@
 /* CSS files add styling rules to your content */
 
+h1{
+  font-family: courier new, sans-serif;
+  margin: 0em;
+  
+}
+
 body {
   font-family: calibri light, sans-serif;
   margin: 2em;
 }
 
 h1 {
-  font-style: italic;
+  font-style: bold;
   color: #333;
 }
 /* Add a black background color to the top navigation */
@@ -36,3 +42,6 @@ h1 {
   background-color: #4CAF50;
   color: white;
 }
+.wrapper { display:flex; flex-wrap:wrap;justfiy-content:space-between; width: 90vmax; }
+.box { flex: 0 0 40%; height: 50%; text-align:left; }
+
