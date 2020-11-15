@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <body style="background-color:darkgrey;">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <h1>Henry Darger</h1>
-    <p></p>
-<p id="datetime"></p>
+    <title>Hello!</title>
+    
+    <ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
-
-<script>
-var dt = new Date();
-document.getElementById("datetime").innerHTML = dt.toLocaleString();
-</script>
-      
-   <div class="topnav">
-      <a href="index.html">Home</a>
-  <a href="bio.html">Bio</a>
-  <a href="life.html">Life</a>
-  <a href="artworks.html">Artworks</a>
-  <a href="contactus.html">Contact Us</a>
-</div>
-
-  <img src="https://cdn.glitch.com/43b09627-b21b-4281-b9a2-78a1125e779c%2Fdargerportrait.jpg?v=1604819383451">
-  
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-    </body>
+  </head>  
   <body>
+    <h2>Grid of Boxes</h2>
+    <p>Float boxes side by side:</p>
 
-<h3 class="intro">Picture of Henry Darger Eating</h3>
-<p> Continue browsing on to other pages!</p>
+    <div class="clearfix">
+      <div class="box redbox threecol">
+ <p>Some text inside the box.</p>      </div>
+      <div class="box bluebox threecol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box greenbox threecol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box yellowbox twocol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box yellowbox twocol">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box yellowbox onecol">
+        <p>Some text inside the box.</p>
+      </div>
+    </div>
 
-
-    <footer>
-  <p></p>
-  <p>© 2020 Enya Low </p>
-</footer>
-
-    </body>
-  </head>
+    <p>Note that we also use the clearfix hack to take care of the layout flow, and that add the box-sizing property to make sure that the box doesn't break due to extra padding. Try to remove this code to see the effect.</p>
+  </body>
 </html>
+
