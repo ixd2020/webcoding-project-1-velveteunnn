@@ -1,21 +1,27 @@
 <link rel="stylesheet" type="text/css" href="life.css" />
     <h1>Henry Darger</h1>
-    <body style="background-color:darkgrey;">
+    
 
  <p></p>
 <p id="datetime"></p>
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
 <script>
 var dt = new Date();
 document.getElementById("datetime").innerHTML = dt.toLocaleString();
 </script>
- <div class="topnav">
-      <a href="index.html">Home</a>
+ <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
   <a href="bio.html">Bio</a>
   <a href="life.html">Life</a>
-  <a href="artworks.html">Artworks</a>
+   <a href= "artworks.html">Artworks</a>
   <a href="contactus.html">Contact Us</a>
+   
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 <br>
 <h1 class="life">Life of Henry Darger</h1>

@@ -1,8 +1,10 @@
 /* CSS files add styling rules to your content */
+body {background-color: #F7F9F9 ;}
 
 h1{
-  font-family: courier new, sans-serif;
+  font-family: Poppins, sans-serif;
   margin: 0em;
+  font-size:50px
   
 }
 
@@ -18,39 +20,37 @@ h1 {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #F7F9F9;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  display: block;
+  color: #212F3D;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-/* Change the color of links on hover */
-.topnav a:visited {
-  background-color: #99CCFF;
-  color: white;
-}
+
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #D0D3D4;
   color: black;
 }
 
-/* Add a color to the active/current link */
+/* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #AF7AC5;
   color: white;
 }
-}
-.wrapper { display:flex; flex-wrap:wrap;justfiy-content:space-between; width: 90vmax; }
-.box { flex: 0 0 40%; height: 50%; text-align:left; }
 
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
 
 
 h1.intro {
@@ -60,3 +60,11 @@ h1.intro {
 p.important {
     color: black;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto%;
+}
+font-family: 'Poppins', sans-serif;
