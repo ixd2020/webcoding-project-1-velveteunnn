@@ -190,3 +190,9 @@ li a:hover {
 </head>
 <body>
 
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .threecol, .twocol, .onecol {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
