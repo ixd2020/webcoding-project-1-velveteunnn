@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    
+     <ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="csstest.html">css test</a></li>
+  <li><a href="domtest.html">DOM Test </a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+    
+  </head>
+</html>
+
+<body>
+     <h2>My First Page</h2>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+</script>
+  
+<p onclick="this.innerHTML = 'You got this!'">Click if you're feeling happy</p>
+  <p onclick="this.innerHTML = 'You got this!'">Click if you're feeling meh</p>
+  <p onclick="this.innerHTML = 'You got this!'">Click if you're feeling sad</p>
+  
+  <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:400px;height:50px;padding:40px;">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Thank You"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+</script>
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:400px;height:50px;padding:40px;">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Thank You"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+
+</script>
+<h2>Manifest Money Now !!!</h2>
+
+<h2>Ching ching ching comes the money tree, and everytime it chings money comes to me.</h2>
+
+<button id="myBtn2">Press to claim</button>
+
+<script>
+document.getElementById("myBtn2").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Check your bank now");
+}
+</script>
+
+</body>
+       

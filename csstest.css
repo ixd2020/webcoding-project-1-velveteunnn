@@ -134,12 +134,7 @@ h1 {
   width: 100%
     
 }
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
-  .threecol, .twocol, .onecol {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+
 /* unvisited link */
 a:link { <link rel="redbox" href="/index.html">
   color: red;
@@ -160,8 +155,14 @@ a:active {
   color: blue;
 }
 
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .threecol, .twocol, .onecol {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 body {
- background-image: url("https://cdn.glitch.com/510698c7-4da3-4ed3-b7bc-645d6caab4e1%2Fpink.jpg?v=1606270901261");
+ background-image: url("https://cdn.glitch.com/510698c7-4da3-4ed3-b7bc-645d6caab4e1%2Fphoto-1461696114087-397271a7aedc.jpg?v=1605065333551");
  background-color: #cccccc;
 }
 ul {
@@ -194,4 +195,3 @@ li a:hover {
 </style>
 </head>
 <body>
-
