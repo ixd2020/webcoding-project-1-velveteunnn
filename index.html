@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <header>
+    <h1>Henry Darger</h1>
+    <p></p>
+<p id="datetime"></p>
     
-    <ul>
-  <li><a href="#home" class="active">Home</a></li>
-  <li><a href="csstest.html">css test</a></li>
-  <li><a href="domtest.html">DOM Test</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="jquerytest.html">jQuery</a></li>
-</ul>
 
+
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+
+ <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="bio.html">Bio</a>
+  <a href="life.html">Life</a>
+   <a href= "artworks.html">Artworks</a>
+  <a href="contactus.html">Contact Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+</header>
+<br>
+<img src="https://cdn.glitch.com/43b09627-b21b-4281-b9a2-78a1125e779c%2FPalace%20of%20Fine%20Arts.jpg?v=1605666846968" alt="Paris" class="center">  
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
   <body>
-    <h2>Grid of Boxes</h2>
-    <p>Float boxes side by side:</p>
-<img src="https://cdn.glitch.com/510698c7-4da3-4ed3-b7bc-645d6caab4e1%2FA_clergyman_visiting_a_journalist_in_prison_Wellcome_V0050331.jpg?v=1605661986559" style="width:100%;"
-    <div class="clearfix">
-      <div class="box redbox threecol">
- <p>Some text inside the box.</p>      </div>
-      <div class="box bluebox threecol">
-        <p>Some text inside the box.</p>
-      </div>
-      <div class="box greenbox threecol">
-        <p>Some text inside the box.</p>
-      </div>
-      <div class="box yellowbox twocol">
-        <p>Some text inside the box.</p>
-      </div>
-      <div class="box yellowbox twocol">
-        <p>Some text inside the box.</p>
-      </div>
-      <div class="box yellowbox onecol">
-        <p>Some text inside the box.</p>
-      </div>
+<p>"Palace of Fine Arts ~ San Francisco, California ~ Historic Site ~ My film 1997" by Onasill ~ Bill - 73 Million is licensed with CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/
+    </p>
+    <footer>
+  <p></p>
+  <p>© 2020 Enya Low </p>
+</footer>
 
-    <p>Note that we also use the clearfix hack to take care of the layout flow, and that add the box-sizing property to make sure that the box doesn't break due to extra padding. Try to remove this code to see the effect.</p>
-  </body>
+    </body>
+  
 </html>
-

@@ -1,0 +1,126 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #F7F9F9;
+  overflow: hidden;
+  display:flex;
+  justify-content:space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  display:flex;
+  display: block;
+  color: #212F3D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+h1{
+      font-family: 'Poppins', sans-serif;
+      margin: 0em;
+      font-size: 50px;
+      
+    }
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #D0D3D4;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #AF7AC5;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+    
+
+    body {
+      font-family: calibri light, sans-serif;
+      margin-left:9%;
+    }
+
+    h3 {
+      font-style: regular:
+          color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+      
+
+    /* Style inputs */
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #6F5796;
+    }
+
+    /* Style the container/contact section */
+    .container {
+      border-radius: 5px;
+      background-color: #E8DAFF;
+      padding: 10px;
+    }
+
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 100px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+
+    div {
+      background-color: #83677B;
+      width: 1500px;
+      border: 15px white;
+      padding: 50px;
+      margin: 20px;
+    }
+header{  text-align:center;
+}
+
+
+ body {background-color: #F7F9F9 ;}  
+
+

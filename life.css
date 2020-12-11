@@ -1,22 +1,20 @@
-/* CSS files add styling rules to your content */
-body {background-color: #F7F9F9 ;}
 
 h1{
   font-family: Poppins, sans-serif;
   margin: 0em;
   font-size:50px
-  
 }
 
 body {
   font-family: calibri light, sans-serif;
   margin: 2em;
+
 }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-style: bold;
   color: #333;
-  
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -48,28 +46,15 @@ h1 {
   background-color: #AF7AC5;
   color: white;
 }
-header{  text-align:center;
-}
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
-
-
-h1.intro {
+h1.life {
     color: black;
 }
-
-p.important {
-    color: black;
+body {background-color: #F7F9F9 ;}
+header{  text-align:center;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto%;
-}
-font-family: 'Poppins', sans-serif;
 
