@@ -18,6 +18,15 @@ h1 {
   color: #333;
   
 }
+
+.wordinimg
+{
+  position:absolute;
+  left:41%;
+  top:47%;
+  font-size:4em;
+  color:white;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #F7F9F9;

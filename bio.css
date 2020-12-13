@@ -55,3 +55,14 @@ h2{
 body {background-color: #F7F9F9 ;}
 header{  text-align:center;
 }
+
+#myImage {
+ width:20%;
+  float:left;
+  margin-right: 15px;
+  
+}
+#mytext{font}
+img {
+ width:100%;
+}
