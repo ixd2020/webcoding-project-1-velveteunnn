@@ -10,7 +10,11 @@ body {
   margin: 2em;
 
 }
-
+*{
+  background-color:#ADE2E8;
+  margin:0px;
+  padding:0px;
+}
 h1 {
   font-family: 'Poppins', sans-serif;
   font-style: bold;
@@ -18,7 +22,7 @@ h1 {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #F7F9F9;
+  background-color: #FACBF6;
   overflow: hidden;
   display:flex;
   justify-content:space-around;
@@ -33,6 +37,7 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
+  background-color: #FACBF6;
 }
 
 /* Change the color of links on hover */

@@ -1,8 +1,9 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #F7F9F9;
+  background-color: #FACBF6;
   overflow: hidden;
   display:flex;
+  
   justify-content:space-around;
 }
 
@@ -13,9 +14,10 @@
   display: block;
   color: #212F3D;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
   text-decoration: none;
   font-size: 30px;
+  background-color: #FACBF6;
 }
 
 h1{
@@ -31,7 +33,7 @@ h1{
 }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.topnav a:active {
   background-color: #AF7AC5;
   color: white;
 }
@@ -55,6 +57,9 @@ h1{
 
     * {
       box-sizing: border-box;
+      background-color:#ADE2E8;
+  margin:0px;
+  padding:0px;
     }
       
 
@@ -69,7 +74,7 @@ h1{
     }
 
     input[type=submit] {
-      background-color: #4CAF50;
+      background-color: #C4A1F1;
       color: white;
       padding: 12px 20px;
       border: none;
@@ -77,13 +82,13 @@ h1{
     }
 
     input[type=submit]:hover {
-      background-color: #6F5796;
+      background-color: #C4A1F1;
     }
 
     /* Style the container/contact section */
     .container {
       border-radius: 5px;
-      background-color: #E8DAFF;
+      background-color: #C4A1F1;
       padding: 10px;
     }
 
@@ -109,8 +114,7 @@ h1{
         margin-top: 0;
       }
     }
-
-    div {
+body div .container {
       background-color: #83677B;
       width: 1500px;
       border: 15px white;
@@ -121,6 +125,9 @@ header{  text-align:center;
 }
 
 
- body {background-color: #F7F9F9 ;}  
+ body {background-color: #C4A1F1 ;}  
+.internal{
+  background-color:#C4A1F1;
+}
 
 

@@ -18,6 +18,7 @@ h1 {
   background-color: #F7F9F9;
   overflow: hidden;
   display:flex;
+  background-color: #FACBF6;
   justify-content:space-around;
 }
 
@@ -31,6 +32,12 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
+  background-color: #FACBF6;
+}
+*{
+  background-color:#ADE2E8;
+  margin:0px;
+  padding:0px;
 }
 
 /* Change the color of links on hover */
@@ -40,7 +47,7 @@ h1 {
 }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.topnav a:active {
   background-color: #AF7AC5;
   color: white;
 }
@@ -60,9 +67,13 @@ header{  text-align:center;
  width:20%;
   float:left;
   margin-right: 15px;
+
   
 }
-#mytext{font}
+#mytext{font-size:2em;}
 img {
  width:100%;
+}
+#somecontent{
+  clear:both;
 }
