@@ -1,21 +1,17 @@
 h1{
   font-family: 'Poppins', sans-serif;
   margin: 0em;
-  font-size: 50px;
+  font-size:5em;
+  color: #ECB60F;
+  font-style: bold;
 }
 
 body {
   font-family: calibri light, sans-serif;
   margin: 2em;
 }
-
-h1 {
-  font-style: bold;
-  color: #333;
-}
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #F7F9F9;
   overflow: hidden;
   display:flex;
   background-color: #FACBF6;
@@ -35,7 +31,7 @@ h1 {
   background-color: #FACBF6;
 }
 *{
-  background-color:#ADE2E8;
+  background-color:#077576;
   margin:0px;
   padding:0px;
 }
@@ -59,20 +55,24 @@ h2{
 .topnav .icon {
   display: none;
 }
-body {background-color: #F7F9F9 ;}
+body {background-color: #F7F9F9 ;
+color: white;}
 header{  text-align:center;
 }
 
 #myImage {
- width:20%;
+ width:15%;
   float:left;
   margin-right: 15px;
-
-  
 }
-#mytext{font-size:2em;}
+}
+#myText
+{
+font-size:1em;
+}
 img {
  width:100%;
+  
 }
 #somecontent{
   clear:both;

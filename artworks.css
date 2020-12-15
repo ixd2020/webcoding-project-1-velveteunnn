@@ -6,7 +6,7 @@
   justify-content:space-around;
 }
 *{
-  background-color:#ADE2E8;
+  background-color:#077576;
   margin:0px;
   padding:0px;
 }
@@ -45,18 +45,16 @@
 h1{
   font-family: 'Poppins', sans-serif;
   margin: 0em;
-  font-size: 50px;
+  font-size:5em;
+  color: #ECB60F;
+  font-style: bold;
   
 }
 
 body {
   font-family: calibri light, sans-serif;
   margin: 2em;
-}
-
-h1 {
-  font-style: bold;
-  color: #333;
+  color: white;
 }
 
 h3 {
@@ -67,12 +65,16 @@ body {background-color: #F7F9F9 ;}
 
 .imggrid
 { display:grid;
-  grid-template-rows: repeat(2,1fr);
-  grid-template-columns: repeat(2,1fr);
-  
+  grid-template-rows:repeat(2, 1fr) ;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap: 50px;
 }
+
 header{  text-align:center;
 }
 body h2 b{
   font-size:2em;
+}
+div b {
+  color: #ECB60F;
 }

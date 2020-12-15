@@ -2,23 +2,22 @@
 h1{
   font-family: Poppins, sans-serif;
   margin: 0em;
-  font-size:50px
+  font-size:5vw;
+  color: #ECB60F;
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
 }
 
 body {
   font-family: calibri light, sans-serif;
   margin: 2em;
+  color: white;
 
 }
 *{
-  background-color:#ADE2E8;
+  background-color:#077576;
   margin:0px;
   padding:0px;
-}
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-style: bold;
-  color: #333;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -57,7 +56,8 @@ h1 {
   display: none;
 }
 h1.life {
-    color: black;
+    color: white;
+  font-size:3em;
 }
 body {background-color: #F7F9F9 ;}
 header{  text-align:center;

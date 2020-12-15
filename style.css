@@ -1,10 +1,11 @@
 /* CSS files add styling rules to your content */
-body {background-color: #F7F9F9 ;}
 
 h1{
   font-family: Poppins, sans-serif;
-  margin: 0em;
-  font-size:50px
+  margin: 0px;
+    font-size:5em;
+  color: #ECB60F;
+  font-style: bold;
   
 }
 
@@ -12,27 +13,12 @@ body {
   font-family: calibri light, sans-serif;
   margin: 2em;
 }
-
-h1 {
-  font-style: bold;
-  color: #333;
-  
-}
 *{
-  background-color:#ADE2E8;
+  background-color:#077576;
   margin:0px;
   padding:0px;
 }
 
-.wordinimg
-{
-  position:absolute;
-  left:41%;
-  top:40%;
-  font-size:4em;
-  color:white;
-  background:none;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   
@@ -61,7 +47,7 @@ h1 {
 }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.topnav a:active {
   background-color: #AF7AC5;
   color: white;
 }
@@ -73,13 +59,8 @@ header{  text-align:center;
   display: none;
 }
 
-
-h1.intro {
-    color: black;
-}
-
-p.important {
-    color: black;
+p.important,h1.intro {
+    color: white;
 }
 
 .center {
@@ -89,8 +70,9 @@ p.important {
   margin-right:auto;
 }
 
-.quote{font-size:2em;
+.quote
+{font-size:2em;
 text-align:center;
   font-family: 'Playfair Display', serif;
-  color:black;
+  color:white;
 }
