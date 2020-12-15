@@ -1,4 +1,5 @@
 /* Add a black background color to the top navigation */
+
 .topnav {
   background-color: #FACBF6;
   overflow: hidden;
@@ -99,7 +100,7 @@ h1{
       border-radius: 5px;
       background-color: #6B031F;
       padding: 10px;
-    }
+          }
 
     /* Create two columns that float next to eachother */
     .column {
@@ -116,11 +117,13 @@ h1{
       clear: both;
       
     }
-h2 , div p ,label,input,select,option,textarea,label{
+h2 ,div p ,label,input,select,option,textarea,label{
   background-color: #6B031F;
   color: white;
   
+  
 }
+h1 {background-color: #6B031F;background-color:#077576;}
 form{background-color: #6B031F;}
 
     /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -141,13 +144,25 @@ body div .container {
 header{  text-align:center;
 }
 
-
+div{background-color:#6B031F;}
  body {background-color: #6B031F; }  
 .internal{
   border:50px solid #6B031F;
+  text-align:center;
+  
+   
+  
 }
 ::placeholder{
   color:white;
 }
 
+.hat{width:15%;
+
+background-color:#6B031F;
+float:flex;
+.adjust2{
+  display:flex;
+  display:inline-block;
+}
 

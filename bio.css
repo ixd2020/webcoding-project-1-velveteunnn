@@ -1,7 +1,7 @@
 h1{
   font-family: 'Poppins', sans-serif;
   margin: 0em;
-  font-size:5em;
+  font-size:5vw;
   color: #ECB60F;
   font-style: bold;
 }
@@ -68,7 +68,7 @@ header{  text-align:center;
 }
 #myText
 {
-font-size:1em;
+
 }
 img {
  width:100%;
@@ -77,3 +77,4 @@ img {
 #somecontent{
   clear:both;
 }
+p{font-size:1vw;}

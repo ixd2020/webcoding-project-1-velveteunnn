@@ -31,30 +31,50 @@
   </header>
 <body>
 <div class="container">
-  <div style="text-align:center" class = "internal">
-    <h2>Contact Us</h2> 
-    <p>Enquiries? Leave us a message:)</p>
-    
+  <div class = "internal">
+  <div class = "adjust2">
+    <img class = "hat" src = "https://cdn.glitch.com/43b09627-b21b-4281-b9a2-78a1125e779c%2F%E2%80%94Pngtree%E2%80%94a%20party%20short-haired%20christmas%20hat_5671557.png?v=1608032206832">
+   <h2>Contact Us</h2> 
+    <p class = "para">Enquiries? Leave us a message:)</p>
+    </div>
   <div class="row">
     <div class="column">
   
     </div>
     <div class="column">
       
-      <form action="/action_page.php">
+      <form method="post" action="http://jkorpela.fi/cgi-bin/echo.cgi"> 
+        <div>
         <label for="fname">Name</label>
-        <input type="text" id="fname" name="Name" placeholder="Your name...">
+        <input type="text" id="fname" name="Name" placeholder="Your name...">          
+        </div>
+        <div>
         <label for="lname">Email</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your email...">
+        <input type="text" id="lname" name="Last Name" placeholder="Your email...">
+          </div>
+        <div>
         <label for="country">Country</label>
-        <select id="country" name="country">
+        <select id="country" name="Country">
           <option value="asia">Asia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
         </select>
+          </div>
+        <div>
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="your message..."></textarea>
-        <input type="submit" value="Submit">
+        <textarea id="subject" name="Subject" placeholder="your message..."></textarea>
+          </div>
+        <div>
+        <input id="myBtn" type="submit" value="Submit" >          
+        </div>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Thank you for contacting us, you will receive a reply shortly.");
+}
+        </script>
       </form>
     </div>
   </div>
