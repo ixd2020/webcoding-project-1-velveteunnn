@@ -14,7 +14,7 @@ body {
 .topnav {
   overflow: hidden;
   display:flex;
-  background-color: #FACBF6;
+  background-color: #501313;
   justify-content:space-around;
 }
 
@@ -23,12 +23,12 @@ body {
   float: center;
   display:flex;
   display: block;
-  color: #212F3D;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
-  background-color: #FACBF6;
+  background-color: #501313;
 }
 *{
   background-color:#077576;
@@ -45,6 +45,11 @@ body {
 /* Add an active class to highlight the current page */
 .topnav a:active {
   background-color: #AF7AC5;
+  color: white;
+  width:150px;
+}
+.topnav a:visited {
+  background-color:#464545 ;
   color: white;
 }
 h2{
@@ -77,4 +82,7 @@ img {
 #somecontent{
   clear:both;
 }
-p{font-size:1vw;}
+p{font-size:1.1em;}
+#datetime{
+  font-size:1em;
+}

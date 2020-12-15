@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #FACBF6;
+ background-color: #501313;
   overflow: hidden;
   display:flex;
   justify-content:space-around;
@@ -16,19 +16,23 @@
   float: center;
   display:flex;
   display: block;
-  color: #212F3D;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
-  background-color: #FACBF6;
+  background-color: #501313;
   
 }
 
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #AF7AC5;
+  background-color: #D0D3D4;
+  color: white;
+}
+.topnav a:visited {
+  background-color:#464545 ;
   color: white;
 }
 
@@ -36,6 +40,7 @@
 .topnav a:active {
   background-color: #AF7AC5;
   color: white;
+  width:150px;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -67,7 +72,7 @@ body {background-color: #F7F9F9 ;}
 { display:grid;
   grid-template-rows:repeat(2, 1fr) ;
   grid-template-columns:repeat(2,1fr);
-  grid-gap: 50px;
+  grid-gap: 1px;
 }
 
 header{  text-align:center;
@@ -77,4 +82,7 @@ body h2 b{
 }
 div b {
   color: #ECB60F;
+}
+#datetime{
+  font-size:1em;
 }

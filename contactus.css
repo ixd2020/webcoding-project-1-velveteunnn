@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation */
 
 .topnav {
-  background-color: #FACBF6;
+  background-color: #501313;
   overflow: hidden;
   display:flex;
   
@@ -13,12 +13,12 @@
   float: center;
   display:flex;
   display: block;
-  color: #212F3D;
+  color: white;
   text-align: center;
   padding: 10px;
   text-decoration: none;
   font-size: 30px;
-  background-color: #FACBF6;
+  background-color: #501313;
 }
 
 h1{
@@ -37,6 +37,11 @@ h1{
 /* Add an active class to highlight the current page */
 .topnav a:active {
   background-color: #AF7AC5;
+  color: white;
+  width:150px;
+}
+.topnav a:visited {
+  background-color:#464545 ;
   color: white;
 }
 
@@ -141,7 +146,7 @@ body div .container {
       padding: 50px;
       margin: 20px;
     }
-header{  text-align:center;
+header{  text-align:center; 
 }
 
 div{background-color:#6B031F;}
@@ -166,3 +171,6 @@ float:flex;
   display:inline-block;
 }
 
+#datetime{
+  font-size:1em;
+}
